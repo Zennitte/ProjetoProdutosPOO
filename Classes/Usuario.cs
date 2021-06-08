@@ -21,6 +21,7 @@ namespace Projeto_ProdutosPOO.Classes
             Nome = _nome;
             Email = _email;
             Senha = _senha;
+            DataCadastro = DateTime.Now;
         }
         public string Cadastrar(Usuario usuario)
         {
